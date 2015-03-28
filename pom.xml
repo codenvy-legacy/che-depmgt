@@ -34,7 +34,7 @@
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.core.version>1.0.0-SNAPSHOT</che.core.version>
-        <che.plugin.version>1.0.0-SNAPSHOT</che.plugin.version>
+        <che.plugins.version>1.0.0-SNAPSHOT</che.plugins.version>
         <che.sdk.version>1.0.0-SNAPSHOT</che.sdk.version>
         <codenvy.api-docs-ui.version>1.5.0-SNAPSHOT</codenvy.api-docs-ui.version>
         <codenvy.cli.version>2.9.0-SNAPSHOT</codenvy.cli.version>
