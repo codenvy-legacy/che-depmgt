@@ -33,49 +33,21 @@
     </scm>
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
-        <che.core.version>1.0.0-SNAPSHOT</che.core.version>
-        <che.plugins.version>1.0.0-SNAPSHOT</che.plugins.version>
-        <che.sdk.version>1.0.0-SNAPSHOT</che.sdk.version>
+        <che.core.version>3.9.0-SNAPSHOT</che.core.version>
+        <che.plugins.version>3.9.0-SNAPSHOT</che.plugins.version>
+        <che.sdk.version>3.9.0-SNAPSHOT</che.sdk.version>
         <codenvy.api-docs-ui.version>1.5.0-SNAPSHOT</codenvy.api-docs-ui.version>
         <codenvy.cli.version>2.9.0-SNAPSHOT</codenvy.cli.version>
         <codenvy.cloud-ide.version>3.9.0-SNAPSHOT</codenvy.cloud-ide.version>
-        <codenvy.commons.version>0.45.0-SNAPSHOT</codenvy.commons.version>
         <codenvy.dashboard.version>0.15.0-SNAPSHOT</codenvy.dashboard.version>
         <codenvy.factory.version>0.24.0-SNAPSHOT</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>0.16.0-SNAPSHOT</codenvy.hosted-infrastructure.version>
-        <codenvy.ide-codeassistant-index.version>20120627</codenvy.ide-codeassistant-index.version>
-        <codenvy.ide-sdk.version>3.9.0-SNAPSHOT</codenvy.ide-sdk.version>
-        <codenvy.ide.version>3.9.0-SNAPSHOT</codenvy.ide.version>
         <codenvy.odyssey.version>0.30.0-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>1.9.0-SNAPSHOT</codenvy.platform-api-client-java.version>
-        <codenvy.platform-api-gwt-client.version>0.22.0-SNAPSHOT</codenvy.platform-api-gwt-client.version>
-        <codenvy.platform-api.version>0.34.0-SNAPSHOT</codenvy.platform-api.version>
         <codenvy.plugin-contribution.version>1.3.0-SNAPSHOT</codenvy.plugin-contribution.version>
-        <codenvy.plugin-cpp.version>1.8.0-SNAPSHOT</codenvy.plugin-cpp.version>
-        <codenvy.plugin-editor-codemirror.version>1.9.0-SNAPSHOT</codenvy.plugin-editor-codemirror.version>
-        <codenvy.plugin-editor-orion.version>1.9.0-SNAPSHOT</codenvy.plugin-editor-orion.version>
-        <codenvy.plugin-go.version>1.5.0-SNAPSHOT</codenvy.plugin-go.version>
-        <codenvy.plugin-java.version>1.9.0-SNAPSHOT</codenvy.plugin-java.version>
-        <codenvy.plugin-php.version>1.8.0-SNAPSHOT</codenvy.plugin-php.version>
-        <codenvy.plugin-python.version>1.8.0-SNAPSHOT</codenvy.plugin-python.version>
-        <codenvy.plugin-ruby.version>1.8.0-SNAPSHOT</codenvy.plugin-ruby.version>
-        <codenvy.plugin-sdk.version>1.9.0-SNAPSHOT</codenvy.plugin-sdk.version>
         <codenvy.plugin-svn.version>1.1.0-SNAPSHOT</codenvy.plugin-svn.version>
-        <codenvy.plugin.angularjs.version>1.12.0-SNAPSHOT</codenvy.plugin.angularjs.version>
-        <codenvy.plugin.bower.version>1.10.0-SNAPSHOT</codenvy.plugin.bower.version>
-        <codenvy.plugin.datasource.version>1.12.0-SNAPSHOT</codenvy.plugin.datasource.version>
         <codenvy.plugin.gae.version>1.5.0-SNAPSHOT</codenvy.plugin.gae.version>
-        <codenvy.plugin.git.version>1.12.0-SNAPSHOT</codenvy.plugin.git.version>
-        <codenvy.plugin.grunt.version>1.10.0-SNAPSHOT</codenvy.plugin.grunt.version>
-        <codenvy.plugin.gulp.version>1.10.0-SNAPSHOT</codenvy.plugin.gulp.version>
         <codenvy.plugin.hosted.version>0.14.0-SNAPSHOT</codenvy.plugin.hosted.version>
-        <codenvy.plugin.npm.version>1.10.0-SNAPSHOT</codenvy.plugin.npm.version>
-        <codenvy.plugin.runner.version>1.1.0-SNAPSHOT</codenvy.plugin.runner.version>
-        <codenvy.plugin.tour.version>1.6.0-SNAPSHOT</codenvy.plugin.tour.version>
-        <codenvy.plugin.yeoman.version>1.10.0-SNAPSHOT</codenvy.plugin.yeoman.version>
-        <codenvy.security.version>1.5.0-SNAPSHOT</codenvy.security.version>
-        <codenvy.test-framework.version>0.14.0-SNAPSHOT</codenvy.test-framework.version>
-        <codenvy.vfs.impl.version>3.9.0-SNAPSHOT</codenvy.vfs.impl.version>
         <com.amazonws.sdk.version>1.3.17</com.amazonws.sdk.version>
         <com.braintreepayments.gateway.version>2.29.1</com.braintreepayments.gateway.version>
         <com.buest.jcommander.version>1.30</com.buest.jcommander.version>
