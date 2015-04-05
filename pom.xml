@@ -323,7 +323,7 @@
                                 <pluginExecution>
                                     <pluginExecutionFilter>
                                         <groupId>com.codenvy.platform-api</groupId>
-                                        <artifactId>codenvy-dto-maven-plugin</artifactId>
+                                        <artifactId>che-core-api-dto-maven-plugin</artifactId>
                                         <versionRange>[0.4.0-SNAPSHOT,)</versionRange>
                                         <goals>
                                             <goal>generate</goal>
