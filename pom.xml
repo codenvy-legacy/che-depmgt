@@ -39,7 +39,7 @@
         <che.tutorials.version>3.9.0</che.tutorials.version>
         <codenvy.api-docs-ui.version>1.5.0</codenvy.api-docs-ui.version>
         <codenvy.cli.version>2.9.0</codenvy.cli.version>
-        <codenvy.cloud-ide.version>3.9.0</codenvy.cloud-ide.version>
+        <codenvy.cloud-ide.version>3.9.1-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>0.15.0</codenvy.dashboard.version>
         <codenvy.factory.version>0.24.0</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>0.16.0</codenvy.hosted-infrastructure.version>
