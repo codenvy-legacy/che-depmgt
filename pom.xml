@@ -128,6 +128,7 @@
         <org.apache.tika.version>1.1</org.apache.tika.version>
         <org.apache.tomcat.version>7.0.54</org.apache.tomcat.version>
         <org.assertj.version>1.6.1</org.assertj.version>
+        <org.bouncycastle.version>1.51</org.bouncycastle.version>
         <org.codehaus.groovy.version>1.8.1</org.codehaus.groovy.version>
         <org.codehaus.jackson.version>1.9.4</org.codehaus.jackson.version>
         <org.concordion.ext.version>1.1.1</org.concordion.ext.version>
