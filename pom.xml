@@ -21,14 +21,14 @@
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
     <artifactId>maven-depmgt-pom</artifactId>
-    <version>1.20.3-SNAPSHOT</version>
+    <version>1.20.3</version>
     <packaging>pom</packaging>
     <name>Che Dependency Management POM</name>
     <description>Provides version of third parties artifacts to use in Codenvy platform projects</description>
     <scm>
         <connection>scm:git:git://github.com/codenvy/che-depmgt.git</connection>
         <developerConnection>scm:git:git@github.com:codenvy/che-depmgt.git</developerConnection>
-        <tag>1.20.0</tag>
+        <tag>1.20.3</tag>
         <url>https://github.com/codenvy/che-depmgt</url>
     </scm>
     <properties>
