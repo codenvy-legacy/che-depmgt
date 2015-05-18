@@ -33,17 +33,17 @@
     </scm>
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
-        <che.core.version>3.9.4</che.core.version>
+        <che.core.version>3.9.5-SNAPSHOT</che.core.version>
         <che.plugins.version>3.9.2</che.plugins.version>
         <che.sdk.version>3.9.1</che.sdk.version>
         <che.tutorials.version>3.9.0</che.tutorials.version>
         <codenvy.api-docs-ui.version>1.5.0</codenvy.api-docs-ui.version>
         <codenvy.cli.version>2.9.0</codenvy.cli.version>
-        <codenvy.cloud-ide.version>3.9.5</codenvy.cloud-ide.version>
+        <codenvy.cloud-ide.version>3.9.6-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>0.15.3</codenvy.dashboard.version>
         <codenvy.factory.version>0.24.1</codenvy.factory.version>
-        <codenvy.hosted-infrastructure.version>0.16.4</codenvy.hosted-infrastructure.version>
-        <codenvy.odyssey.version>0.30.1</codenvy.odyssey.version>
+        <codenvy.hosted-infrastructure.version>0.16.5-SNAPSHOT</codenvy.hosted-infrastructure.version>
+        <codenvy.odyssey.version>0.30.2-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>1.9.0</codenvy.platform-api-client-java.version>
         <codenvy.plugin-contribution.version>1.3.0</codenvy.plugin-contribution.version>
         <codenvy.plugin.gae.version>1.5.0</codenvy.plugin.gae.version>
