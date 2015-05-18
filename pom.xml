@@ -33,7 +33,7 @@
     </scm>
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
-        <che.core.version>3.9.4</che.core.version>
+        <che.core.version>3.9.5-SNAPSHOT</che.core.version>
         <che.plugins.version>3.9.2</che.plugins.version>
         <che.sdk.version>3.9.1</che.sdk.version>
         <che.tutorials.version>3.9.0</che.tutorials.version>
