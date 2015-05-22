@@ -33,9 +33,9 @@
     </scm>
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
-        <che.core.version>3.9.6-SNAPSHOT</che.core.version>
-        <che.plugins.version>3.9.3-SNAPSHOT</che.plugins.version>
-        <che.sdk.version>3.9.2-SNAPSHOT</che.sdk.version>
+        <che.core.version>3.9.6</che.core.version>
+        <che.plugins.version>3.9.3</che.plugins.version>
+        <che.sdk.version>3.9.2</che.sdk.version>
         <che.tutorials.version>3.9.0</che.tutorials.version>
         <codenvy.api-docs-ui.version>1.5.0</codenvy.api-docs-ui.version>
         <codenvy.cli.version>2.9.0</codenvy.cli.version>
