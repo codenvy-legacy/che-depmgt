@@ -41,6 +41,7 @@
         <codenvy.cli.version>2.10.1-SNAPSHOT</codenvy.cli.version>
         <codenvy.cloud-ide.version>3.10.1-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>0.16.1-SNAPSHOT</codenvy.dashboard.version>
+        <codenvy.dashboard2.version>2.0.0-beta1-SNAPSHOT</codenvy.dashboard2.version>
         <codenvy.factory.version>0.25.1-SNAPSHOT</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>0.17.1-SNAPSHOT</codenvy.hosted-infrastructure.version>
         <codenvy.odyssey.version>0.31.1-SNAPSHOT</codenvy.odyssey.version>
