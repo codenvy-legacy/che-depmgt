@@ -48,7 +48,7 @@
         <codenvy.plugin-contribution.version>1.3.0</codenvy.plugin-contribution.version>
         <codenvy.plugin.gae.version>1.5.0</codenvy.plugin.gae.version>
         <codenvy.plugin.hosted.version>0.14.YD.1-SNAPSHOT</codenvy.plugin.hosted.version>
-        <codenvy.plugins.version>3.9.YD.0-SNAPSHOT</codenvy.plugins.version>
+        <codenvy.plugins.version>3.9.0</codenvy.plugins.version>
         <com.amazonws.sdk.version>1.3.17</com.amazonws.sdk.version>
         <com.braintreepayments.gateway.version>2.29.1</com.braintreepayments.gateway.version>
         <com.buest.jcommander.version>1.30</com.buest.jcommander.version>
