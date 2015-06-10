@@ -40,7 +40,7 @@
         <codenvy.api-docs-ui.version>1.5.0</codenvy.api-docs-ui.version>
         <codenvy.cli.version>2.9.0</codenvy.cli.version>
         <codenvy.cloud-ide.version>3.9.7-SNAPSHOT</codenvy.cloud-ide.version>
-        <codenvy.dashboard.version>0.15.3</codenvy.dashboard.version>
+        <codenvy.dashboard.version>0.15.4-SNAPSHOT</codenvy.dashboard.version>
         <codenvy.factory.version>0.24.1</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>0.16.6-SNAPSHOT</codenvy.hosted-infrastructure.version>
         <codenvy.odyssey.version>0.30.3-SNAPSHOT</codenvy.odyssey.version>
