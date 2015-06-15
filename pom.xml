@@ -42,7 +42,7 @@
         <codenvy.cloud-ide.version>3.9.YD.6-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>0.15.3</codenvy.dashboard.version>
         <codenvy.factory.version>0.24.1</codenvy.factory.version>
-        <codenvy.hosted-infrastructure.version>0.16.5</codenvy.hosted-infrastructure.version>
+        <codenvy.hosted-infrastructure.version>0.16.YD.5-SNAPSHOT</codenvy.hosted-infrastructure.version>
         <codenvy.odyssey.version>0.30.YD.2-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>1.9.0</codenvy.platform-api-client-java.version>
         <codenvy.plugin-contribution.version>1.3.0</codenvy.plugin-contribution.version>
