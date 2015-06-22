@@ -616,6 +616,8 @@
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>${version.javadoc.plugin}</version>
                     <configuration>
+                        <!-- Workaround for java 8 strict javadoc compiler TODO fix me -->
+                        <additionalparam>-Xdoclint:none</additionalparam>
                         <archive>
                             <manifest>
                                 <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
