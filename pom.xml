@@ -16,12 +16,12 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>3.7.0-SNAPSHOT</version>
+        <version>3.7.0</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
     <artifactId>maven-depmgt-pom</artifactId>
-    <version>1.21.1-RC-SNAPSHOT</version>
+    <version>1.21.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Che Dependency Management POM</name>
     <description>Provides version of third parties artifacts to use in Codenvy platform projects</description>
@@ -33,25 +33,25 @@
     </scm>
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
-        <che.core.version>3.10.1-RC-SNAPSHOT</che.core.version>
-        <che.plugins.version>3.10.1-RC-SNAPSHOT</che.plugins.version>
-        <che.sdk.version>3.10.1-RC-SNAPSHOT</che.sdk.version>
-        <che.tutorials.version>3.10.1-RC-SNAPSHOT</che.tutorials.version>
-        <codenvy.analytics.version>3.9.2-RC-SNAPSHOT</codenvy.analytics.version>
-        <codenvy.api-docs-ui.version>1.6.1-RC-SNAPSHOT</codenvy.api-docs-ui.version>
-        <codenvy.cli.version>2.10.1-RC-SNAPSHOT</codenvy.cli.version>
-        <codenvy.cloud-ide.version>3.10.1-RC-SNAPSHOT</codenvy.cloud-ide.version>
-        <codenvy.dashboard.version>0.16.1-RC-SNAPSHOT</codenvy.dashboard.version>
-        <codenvy.dashboard2.version>2.0.0-beta1-SNAPSHOT</codenvy.dashboard2.version>
-        <codenvy.factory.version>0.25.1-RC-SNAPSHOT</codenvy.factory.version>
-        <codenvy.hosted-infrastructure.version>0.17.1-RC-SNAPSHOT</codenvy.hosted-infrastructure.version>
-        <codenvy.im.version>3.10.1-RC-SNAPSHOT</codenvy.im.version>
-        <codenvy.odyssey.version>0.31.1-RC-SNAPSHOT</codenvy.odyssey.version>
-        <codenvy.platform-api-client-java.version>1.10.1-RC-SNAPSHOT</codenvy.platform-api-client-java.version>
-        <codenvy.plugin-contribution.version>1.4.1-RC-SNAPSHOT</codenvy.plugin-contribution.version>
-        <codenvy.plugin.gae.version>1.6.1-RC-SNAPSHOT</codenvy.plugin.gae.version>
-        <codenvy.plugin.hosted.version>0.15.1-RC-SNAPSHOT</codenvy.plugin.hosted.version>
-        <codenvy.plugins.version>3.10.1-RC-SNAPSHOT</codenvy.plugins.version>
+        <che.core.version>3.10.1</che.core.version>
+        <che.plugins.version>3.10.1</che.plugins.version>
+        <che.sdk.version>3.10.1</che.sdk.version>
+        <che.tutorials.version>3.10.1</che.tutorials.version>
+        <codenvy.analytics.version>3.9.2</codenvy.analytics.version>
+        <codenvy.api-docs-ui.version>1.6.1</codenvy.api-docs-ui.version>
+        <codenvy.cli.version>2.10.1</codenvy.cli.version>
+        <codenvy.cloud-ide.version>3.10.1</codenvy.cloud-ide.version>
+        <codenvy.dashboard.version>0.16.1</codenvy.dashboard.version>
+        <codenvy.dashboard2.version>2.0.0-beta1</codenvy.dashboard2.version>
+        <codenvy.factory.version>0.25.1</codenvy.factory.version>
+        <codenvy.hosted-infrastructure.version>0.17.1</codenvy.hosted-infrastructure.version>
+        <codenvy.im.version>3.10.1</codenvy.im.version>
+        <codenvy.odyssey.version>0.31.1</codenvy.odyssey.version>
+        <codenvy.platform-api-client-java.version>1.10.1</codenvy.platform-api-client-java.version>
+        <codenvy.plugin-contribution.version>1.4.1</codenvy.plugin-contribution.version>
+        <codenvy.plugin.gae.version>1.6.1</codenvy.plugin.gae.version>
+        <codenvy.plugin.hosted.version>0.15.1</codenvy.plugin.hosted.version>
+        <codenvy.plugins.version>3.10.1</codenvy.plugins.version>
         <com.amazonws.sdk.version>1.3.17</com.amazonws.sdk.version>
         <com.braintreepayments.gateway.version>2.29.1</com.braintreepayments.gateway.version>
         <com.buest.jcommander.version>1.30</com.buest.jcommander.version>
