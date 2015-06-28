@@ -34,25 +34,25 @@
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
-        <che.core.version>3.10.2</che.core.version>
-        <che.plugins.version>3.10.2</che.plugins.version>
-        <che.sdk.version>3.10.2</che.sdk.version>
-        <che.tutorials.version>3.10.2</che.tutorials.version>
-        <codenvy.analytics.version>3.10.2</codenvy.analytics.version>
-        <codenvy.api-docs-ui.version>3.10.2</codenvy.api-docs-ui.version>
-        <codenvy.cli.version>3.10.2</codenvy.cli.version>
-        <codenvy.cloud-ide.version>3.10.2</codenvy.cloud-ide.version>
-        <codenvy.dashboard.version>3.10.2</codenvy.dashboard.version>
+        <che.core.version>3.10.2-SNAPSHOT</che.core.version>
+        <che.plugins.version>3.10.2-SNAPSHOT</che.plugins.version>
+        <che.sdk.version>3.10.2-SNAPSHOT</che.sdk.version>
+        <che.tutorials.version>3.10.2-SNAPSHOT</che.tutorials.version>
+        <codenvy.analytics.version>3.10.2-SNAPSHOT</codenvy.analytics.version>
+        <codenvy.api-docs-ui.version>3.10.2-SNAPSHOT</codenvy.api-docs-ui.version>
+        <codenvy.cli.version>3.10.2-SNAPSHOT</codenvy.cli.version>
+        <codenvy.cloud-ide.version>3.10.2-SNAPSHOT</codenvy.cloud-ide.version>
+        <codenvy.dashboard.version>3.10.2-SNAPSHOT</codenvy.dashboard.version>
         <codenvy.dashboard2.version>2.0.0-beta1-SNAPSHOT</codenvy.dashboard2.version>
-        <codenvy.factory.version>3.10.2</codenvy.factory.version>
-        <codenvy.hosted-infrastructure.version>3.10.2</codenvy.hosted-infrastructure.version>
-        <codenvy.im.version>3.10.2</codenvy.im.version>
-        <codenvy.odyssey.version>3.10.2</codenvy.odyssey.version>
-        <codenvy.platform-api-client-java.version>3.10.2</codenvy.platform-api-client-java.version>
-        <codenvy.plugin-contribution.version>3.10.2</codenvy.plugin-contribution.version>
-        <codenvy.plugin.gae.version>3.10.2</codenvy.plugin.gae.version>
-        <codenvy.plugin.hosted.version>3.10.2</codenvy.plugin.hosted.version>
-        <codenvy.plugins.version>3.10.2</codenvy.plugins.version>
+        <codenvy.factory.version>3.10.2-SNAPSHOT</codenvy.factory.version>
+        <codenvy.hosted-infrastructure.version>3.10.2-SNAPSHOT</codenvy.hosted-infrastructure.version>
+        <codenvy.im.version>3.10.2-SNAPSHOT</codenvy.im.version>
+        <codenvy.odyssey.version>3.10.2-SNAPSHOT</codenvy.odyssey.version>
+        <codenvy.platform-api-client-java.version>3.10.2-SNAPSHOT</codenvy.platform-api-client-java.version>
+        <codenvy.plugin-contribution.version>3.10.2-SNAPSHOT</codenvy.plugin-contribution.version>
+        <codenvy.plugin.gae.version>3.10.2-SNAPSHOT</codenvy.plugin.gae.version>
+        <codenvy.plugin.hosted.version>3.10.2-SNAPSHOT</codenvy.plugin.hosted.version>
+        <codenvy.plugins.version>3.10.2-SNAPSHOT</codenvy.plugins.version>
         <com.amazonws.sdk.version>1.3.17</com.amazonws.sdk.version>
         <com.braintreepayments.gateway.version>2.29.1</com.braintreepayments.gateway.version>
         <com.buest.jcommander.version>1.30</com.buest.jcommander.version>
