@@ -38,6 +38,7 @@
         <che.plugins.version>4.0.0-SNAPSHOT</che.plugins.version>
         <che.sdk.version>4.0.0-SNAPSHOT</che.sdk.version>
         <che.tutorials.version>4.0.0-SNAPSHOT</che.tutorials.version>
+        <codenvy.analytics.version>3.10.2-SNAPSHOT</codenvy.analytics.version>
         <codenvy.api-docs-ui.version>4.0.0-SNAPSHOT</codenvy.api-docs-ui.version>
         <codenvy.cli.version>4.0.0-SNAPSHOT</codenvy.cli.version>
         <codenvy.cloud-ide.version>4.0.0-SNAPSHOT</codenvy.cloud-ide.version>
@@ -45,6 +46,7 @@
         <codenvy.dashboard2.version>2.0.0-beta1-SNAPSHOT</codenvy.dashboard2.version>
         <codenvy.factory.version>4.0.0-SNAPSHOT</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>4.0.0-SNAPSHOT</codenvy.hosted-infrastructure.version>
+        <codenvy.im.version>3.10.2-SNAPSHOT</codenvy.im.version>
         <codenvy.odyssey.version>4.0.0-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>4.0.0-SNAPSHOT</codenvy.platform-api-client-java.version>
         <codenvy.plugin-contribution.version>4.0.0-SNAPSHOT</codenvy.plugin-contribution.version>
@@ -148,7 +150,7 @@
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
         <org.everrest.assured.version>0.22</org.everrest.assured.version>
-        <org.everrest.version>1.5.0-SNAPSHOT</org.everrest.version>
+        <org.everrest.version>1.5.0</org.everrest.version>
         <org.flyway.version>3.1</org.flyway.version>
         <org.glassfish.hk2.version>2.2.0</org.glassfish.hk2.version>
         <org.glassfish.jersey.version>2.8</org.glassfish.jersey.version>
