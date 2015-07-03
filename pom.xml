@@ -16,7 +16,7 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>3.7.0</version>
+        <version>3.7.1-SNAPSHOT</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
@@ -99,6 +99,7 @@
         <javax.mail.version>1.4.4</javax.mail.version>
         <javax.servlet.version>3.0.1</javax.servlet.version>
         <javax.validation.version>1.0.0.GA</javax.validation.version>
+        <javax.websocket.api.version>1.1</javax.websocket.api.version>
         <javax.ws.rs.version>2.0</javax.ws.rs.version>
         <javax.xml.stream.stax-api.version>1.0-2</javax.xml.stream.stax-api.version>
         <javax.xml.version>2.2.11</javax.xml.version>
@@ -130,7 +131,7 @@
         <org.apache.pig.version>0.12.0-codenvy-p1</org.apache.pig.version>
         <org.apache.poi.version>3.8</org.apache.poi.version>
         <org.apache.tika.version>1.1</org.apache.tika.version>
-        <org.apache.tomcat.version>7.0.54</org.apache.tomcat.version>
+        <org.apache.tomcat.version>8.0.23</org.apache.tomcat.version>
         <org.assertj.version>1.6.1</org.assertj.version>
         <org.bouncycastle.version>1.51</org.bouncycastle.version>
         <org.codehaus.groovy.version>1.8.1</org.codehaus.groovy.version>
@@ -149,7 +150,7 @@
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
         <org.everrest.assured.version>0.22</org.everrest.assured.version>
-        <org.everrest.version>1.5.0</org.everrest.version>
+        <org.everrest.version>1.6.0-SNAPSHOT</org.everrest.version>
         <org.flyway.version>3.1</org.flyway.version>
         <org.glassfish.hk2.version>2.2.0</org.glassfish.hk2.version>
         <org.glassfish.jersey.version>2.8</org.glassfish.jersey.version>
