@@ -39,7 +39,7 @@
         <che.sdk.version>3.11.1-SNAPSHOT</che.sdk.version>
         <che.tutorials.version>3.11.1-SNAPSHOT</che.tutorials.version>
         <codenvy.analytics.version>3.11.1-SNAPSHOT</codenvy.analytics.version>
-        <codenvy.api-docs-ui.version>3.11.1-SNAPSHOT</codenvy.api-docs-ui.version>
+        <codenvy.api-docs-ui.version>3.11.1</codenvy.api-docs-ui.version>
         <codenvy.cli.version>3.11.1-SNAPSHOT</codenvy.cli.version>
         <codenvy.cloud-ide.version>3.11.1-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>3.11.1-SNAPSHOT</codenvy.dashboard.version>
