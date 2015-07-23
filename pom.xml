@@ -179,6 +179,7 @@
         <org.testng.version>6.8</org.testng.version>
         <org.thymeleaf.version>2.1.4.RELEASE</org.thymeleaf.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
+        <websocket.terminal.version>1.0-SNAPSHOT</websocket.terminal.version>
     </properties>
     <repositories>
         <repository>
