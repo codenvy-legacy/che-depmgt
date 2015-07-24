@@ -61,6 +61,7 @@
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
         <com.google.appengine.version>1.9.18</com.google.appengine.version>
         <com.google.code.guice.version>3.0</com.google.code.guice.version>
+	<com.google.errorprone.version>2.0.4</com.google.errorprone.version>
         <com.google.gdata.version>1.47.1</com.google.gdata.version>
         <com.google.guava.version>18.0</com.google.guava.version>
         <com.google.gwt.gin.version>2.1.2</com.google.gwt.gin.version>
@@ -134,6 +135,7 @@
         <org.bouncycastle.version>1.51</org.bouncycastle.version>
         <org.codehaus.groovy.version>1.8.1</org.codehaus.groovy.version>
         <org.codehaus.jackson.version>1.9.4</org.codehaus.jackson.version>
+	<org.codehaus.plexus.version>2.5</org.codehaus.plexus.version>
         <org.concordion.ext.version>1.1.1</org.concordion.ext.version>
         <org.concordion.version>1.4.4</org.concordion.version>
         <org.easymock.version>3.2</org.easymock.version>
