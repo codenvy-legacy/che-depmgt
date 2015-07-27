@@ -71,6 +71,7 @@
         <com.google.protobuf.version>2.6.1</com.google.protobuf.version>
         <com.googlecode.grep4j.version>1.8.7</com.googlecode.grep4j.version>
         <com.googlecode.gson.version>2.3.1</com.googlecode.gson.version>
+        <com.googlecode.gwt-crypto.version>2.3.0</com.googlecode.gwt-crypto.version>
         <com.googlecode.gwt-test-utils.version>0.47</com.googlecode.gwt-test-utils.version>
         <com.googlecode.json-simple.version>1.1.1</com.googlecode.json-simple.version>
         <com.jcraft.jsch.version>0.1.44-1</com.jcraft.jsch.version>
