@@ -38,15 +38,15 @@
         <che.plugins.version>4.0.0-SNAPSHOT</che.plugins.version>
         <che.sdk.version>4.0.0-SNAPSHOT</che.sdk.version>
         <che.tutorials.version>4.0.0-SNAPSHOT</che.tutorials.version>
-        <codenvy.analytics.version>3.11.3-SNAPSHOT</codenvy.analytics.version>
+        <codenvy.analytics.version>3.11.7-SNAPSHOT</codenvy.analytics.version>
         <codenvy.api-docs-ui.version>4.0.0-SNAPSHOT</codenvy.api-docs-ui.version>
         <codenvy.cli.version>4.0.0-SNAPSHOT</codenvy.cli.version>
         <codenvy.cloud-ide.version>4.0.0-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>4.0.0-SNAPSHOT</codenvy.dashboard.version>
-        <codenvy.dashboard2.version>2.0.0-beta1-3</codenvy.dashboard2.version>
+        <codenvy.dashboard2.version>2.0.0-beta2-1</codenvy.dashboard2.version>
         <codenvy.factory.version>4.0.0-SNAPSHOT</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>4.0.0-SNAPSHOT</codenvy.hosted-infrastructure.version>
-        <codenvy.im.version>3.11.3-SNAPSHOT</codenvy.im.version>
+        <codenvy.im.version>3.11.7-SNAPSHOT</codenvy.im.version>
         <codenvy.odyssey.version>4.0.0-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>4.0.0-SNAPSHOT</codenvy.platform-api-client-java.version>
         <codenvy.plugin.gae.version>4.0.0-SNAPSHOT</codenvy.plugin.gae.version>
@@ -165,7 +165,7 @@
         <org.mockito.version>1.9.5</org.mockito.version>
         <org.mockitong.version>0.4</org.mockitong.version>
         <org.mongodb.mongo-java-server.version>1.1.1</org.mongodb.mongo-java-server.version>
-        <org.mongodb.version>3.0.1</org.mongodb.version>
+        <org.mongodb.version>3.0.3</org.mongodb.version>
         <org.objectweb.asm>3.3.1</org.objectweb.asm>
         <org.openjdk.jmh.version>1.4.2</org.openjdk.jmh.version>
         <org.osgi.version>5.0.0</org.osgi.version>
