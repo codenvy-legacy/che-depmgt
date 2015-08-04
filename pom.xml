@@ -1425,6 +1425,7 @@
                             </execution>
                         </executions>
                         <configuration>
+                            <maxHeap>1024</maxHeap>
                             <effort>Max</effort>
                             <threshold>Low</threshold>
                             <xmlOutput>true</xmlOutput>
