@@ -49,7 +49,6 @@
         <codenvy.im.version>3.12.0-SNAPSHOT</codenvy.im.version>
         <codenvy.odyssey.version>3.12.0-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>3.12.0-SNAPSHOT</codenvy.platform-api-client-java.version>
-        <codenvy.plugin.gae.version>3.12.0-SNAPSHOT</codenvy.plugin.gae.version>
         <codenvy.plugins.version>3.12.0-SNAPSHOT</codenvy.plugins.version>
         <com.amazonws.sdk.version>1.3.17</com.amazonws.sdk.version>
         <com.braintreepayments.gateway.version>2.29.1</com.braintreepayments.gateway.version>
