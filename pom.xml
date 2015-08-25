@@ -116,7 +116,7 @@
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
         <maven.plugin-api.version>2.0</maven.plugin-api.version>
         <net.java.dev.jna.version>4.1.0</net.java.dev.jna.version>
-        <net.sf.opencsv.version>2.3</net.sf.opencsv.version>
+        <net.sf.opencsv.version>1.8</net.sf.opencsv.version>
         <net.sourceforge.schemacrawler.version>10.09.01</net.sourceforge.schemacrawler.version>
         <org.antlr.version>3.5.2</org.antlr.version>
         <org.apache.ant.version>1.9.1</org.apache.ant.version>
