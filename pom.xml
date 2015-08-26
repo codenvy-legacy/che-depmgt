@@ -34,7 +34,7 @@
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
-        <che.core.version>3.11.9</che.core.version>
+        <che.core.version>3.11.9.1-SNAPSHOT</che.core.version>
         <che.plugins.version>3.11.9</che.plugins.version>
         <che.sdk.version>3.11.9</che.sdk.version>
         <che.tutorials.version>3.11.9</che.tutorials.version>
@@ -45,7 +45,7 @@
         <codenvy.dashboard.version>3.11.9</codenvy.dashboard.version>
         <codenvy.dashboard2.version>2.0.0-beta3-1</codenvy.dashboard2.version>
         <codenvy.factory.version>3.11.9</codenvy.factory.version>
-        <codenvy.hosted-infrastructure.version>3.11.9.1</codenvy.hosted-infrastructure.version>
+        <codenvy.hosted-infrastructure.version>3.11.9.2-SNAPSHOT</codenvy.hosted-infrastructure.version>
         <codenvy.im.version>3.11.9.1</codenvy.im.version>
         <codenvy.odyssey.version>3.11.9.1-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>3.11.9</codenvy.platform-api-client-java.version>
