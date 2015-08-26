@@ -41,13 +41,13 @@
         <codenvy.analytics.version>3.11.9</codenvy.analytics.version>
         <codenvy.api-docs-ui.version>3.11.1</codenvy.api-docs-ui.version>
         <codenvy.cli.version>3.11.9</codenvy.cli.version>
-        <codenvy.cloud-ide.version>3.11.9.2</codenvy.cloud-ide.version>
+        <codenvy.cloud-ide.version>3.11.9.3-SNAPSHOT</codenvy.cloud-ide.version>
         <codenvy.dashboard.version>3.11.9</codenvy.dashboard.version>
         <codenvy.dashboard2.version>2.0.0-beta3-1</codenvy.dashboard2.version>
         <codenvy.factory.version>3.11.9</codenvy.factory.version>
         <codenvy.hosted-infrastructure.version>3.11.9.1</codenvy.hosted-infrastructure.version>
         <codenvy.im.version>3.11.9.1</codenvy.im.version>
-        <codenvy.odyssey.version>3.11.9</codenvy.odyssey.version>
+        <codenvy.odyssey.version>3.11.9.1-SNAPSHOT</codenvy.odyssey.version>
         <codenvy.platform-api-client-java.version>3.11.9</codenvy.platform-api-client-java.version>
         <codenvy.plugin.gae.version>3.11.9</codenvy.plugin.gae.version>
         <codenvy.plugins.version>3.11.9</codenvy.plugins.version>
