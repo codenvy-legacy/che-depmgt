@@ -38,145 +38,81 @@
         <che.plugins.version>3.12.1-SNAPSHOT</che.plugins.version>
         <che.sdk.version>3.12.1-SNAPSHOT</che.sdk.version>
         <che.tutorials.version>3.12.1-SNAPSHOT</che.tutorials.version>
-        <codenvy.analytics.version>3.12.1-SNAPSHOT</codenvy.analytics.version>
-        <codenvy.api-docs-ui.version>3.11.1</codenvy.api-docs-ui.version>
-        <codenvy.cli.version>3.12.1-SNAPSHOT</codenvy.cli.version>
-        <codenvy.cloud-ide.version>3.12.1-SNAPSHOT</codenvy.cloud-ide.version>
-        <codenvy.dashboard.version>3.12.1-SNAPSHOT</codenvy.dashboard.version>
-        <codenvy.dashboard2.version>2.0.0-beta3-1</codenvy.dashboard2.version>
-        <codenvy.factory.version>3.12.1-SNAPSHOT</codenvy.factory.version>
-        <codenvy.hosted-infrastructure.version>3.12.1-SNAPSHOT</codenvy.hosted-infrastructure.version>
-        <codenvy.im.version>3.12.1-SNAPSHOT</codenvy.im.version>
-        <codenvy.odyssey.version>3.12.1-SNAPSHOT</codenvy.odyssey.version>
-        <codenvy.platform-api-client-java.version>3.12.1-SNAPSHOT</codenvy.platform-api-client-java.version>
-        <codenvy.plugins.version>3.12.1-SNAPSHOT</codenvy.plugins.version>
-        <com.amazonws.sdk.version>1.3.17</com.amazonws.sdk.version>
-        <com.braintreepayments.gateway.version>2.29.1</com.braintreepayments.gateway.version>
-        <com.buest.jcommander.version>1.30</com.buest.jcommander.version>
-        <com.cloudbees.client.version>1.5.4</com.cloudbees.client.version>
-        <com.codahale.metrics.version>3.0.2</com.codahale.metrics.version>
-        <com.dumbster.version>1.6</com.dumbster.version>
-        <com.fasterxml.jackson.version>2.4.1</com.fasterxml.jackson.version>
-        <com.github.fakemongo.version>2.0.0</com.github.fakemongo.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
-        <com.google.appengine.version>1.9.18</com.google.appengine.version>
         <com.google.code.guice.version>3.0</com.google.code.guice.version>
-        <com.google.gdata.version>1.47.1</com.google.gdata.version>
         <com.google.guava.version>18.0</com.google.guava.version>
         <com.google.gwt.gin.version>2.1.2</com.google.gwt.gin.version>
-        <com.google.gwt.gwtmockito>1.1.4</com.google.gwt.gwtmockito>
         <com.google.gwt.version>${version.gwt.plugin}</com.google.gwt.version>
         <com.google.http-client.version>1.19.0</com.google.http-client.version>
         <com.google.oauth-client.version>1.19.0</com.google.oauth-client.version>
-        <com.google.protobuf.version>2.6.1</com.google.protobuf.version>
         <com.googlecode.grep4j.version>1.8.7</com.googlecode.grep4j.version>
         <com.googlecode.gson.version>2.3.1</com.googlecode.gson.version>
-        <com.googlecode.gwt-test-utils.version>0.47</com.googlecode.gwt-test-utils.version>
         <com.googlecode.json-simple.version>1.1.1</com.googlecode.json-simple.version>
         <com.jcraft.jsch.version>0.1.44-1</com.jcraft.jsch.version>
-        <com.nimbusds.version>3.0</com.nimbusds.version>
-        <com.openshift.client.version>2.3.0.Final</com.openshift.client.version>
-        <com.tngtech.java>1.9.3</com.tngtech.java>
         <com.wordnik.swagger.version>1.3.7</com.wordnik.swagger.version>
-        <commons-chain.version>1.2</commons-chain.version>
         <commons-codec.version>1.6</commons-codec.version>
-        <commons-collections.version>3.2.1</commons-collections.version>
         <commons-compress.version>1.6</commons-compress.version>
         <commons-fileupload.version>1.2.1</commons-fileupload.version>
-        <commons-httpclient.version>4.1</commons-httpclient.version>
         <commons-io.version>2.4</commons-io.version>
-        <commons-lang.version>2.6</commons-lang.version>
-        <commons-net.version>3.2</commons-net.version>
-        <de.flapdoodle.embed-mongo.version>1.42</de.flapdoodle.embed-mongo.version>
-        <javax.activation.version>1.1.1</javax.activation.version>
         <javax.annotation.version>1.0</javax.annotation.version>
         <javax.inject.version>1</javax.inject.version>
-        <javax.jcr.version>1.0</javax.jcr.version>
         <javax.jcr350.version>1.3.9</javax.jcr350.version>
-        <javax.json.version>1.0.4</javax.json.version>
         <javax.mail.version>1.4.4</javax.mail.version>
         <javax.servlet.version>3.1.0</javax.servlet.version>
         <javax.validation.version>1.0.0.GA</javax.validation.version>
         <javax.websocket.api.version>1.1</javax.websocket.api.version>
         <javax.ws.rs.version>2.0</javax.ws.rs.version>
-        <javax.xml.stream.stax-api.version>1.0-2</javax.xml.stream.stax-api.version>
-        <javax.xml.version>2.2.11</javax.xml.version>
-        <jdbc.h2-driver.version>1.2.140</jdbc.h2-driver.version>
-        <jdbc.hsqldb-driver.version>2.2.8</jdbc.hsqldb-driver.version>
-        <jdbc.jtds-driver.version>1.2</jdbc.jtds-driver.version>
-        <jdbc.mysql-driver.version>5.1.29</jdbc.mysql-driver.version>
-        <jdbc.nuodb-driver.version>2.0.3</jdbc.nuodb-driver.version>
         <jdbc.postgresql-driver.version>9.3-1102-jdbc41</jdbc.postgresql-driver.version>
         <jenkins.job.name>maven-depmgt-pom-master-ci</jenkins.job.name>
-        <jline.version>0.9.94</jline.version>
-        <junit.version>4.11</junit.version>
-        <marketo.soap.sdk.version>2.3</marketo.soap.sdk.version>
-        <maven.bundle-plugin.version>2.5.0</maven.bundle-plugin.version>
-        <maven.invoker.version>2.1.1</maven.invoker.version>
-        <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
-        <maven.plugin-api.version>2.0</maven.plugin-api.version>
         <net.java.dev.jna.version>4.1.0</net.java.dev.jna.version>
         <net.sf.opencsv.version>1.8</net.sf.opencsv.version>
         <net.sourceforge.schemacrawler.version>10.09.01</net.sourceforge.schemacrawler.version>
         <org.antlr.version>3.5.2</org.antlr.version>
         <org.apache.ant.version>1.9.1</org.apache.ant.version>
-        <org.apache.apacheds.version>1.5.7</org.apache.apacheds.version>
-        <org.apache.hadoop.version>0.20.2</org.apache.hadoop.version>
-        <org.apache.karaf.feature-plugin.version>2.3.5</org.apache.karaf.feature-plugin.version>
-        <org.apache.karaf.version>3.0.2</org.apache.karaf.version>
         <org.apache.lucene.version>5.0.0</org.apache.lucene.version>
-        <org.apache.pdfbox.version>1.7.1</org.apache.pdfbox.version>
-        <org.apache.pig.version>0.12.0-codenvy-p1</org.apache.pig.version>
-        <org.apache.poi.version>3.8</org.apache.poi.version>
-        <org.apache.tika.version>1.1</org.apache.tika.version>
         <org.apache.tomcat.version>8.0.23</org.apache.tomcat.version>
-        <org.assertj.version>1.6.1</org.assertj.version>
         <org.bouncycastle.version>1.51</org.bouncycastle.version>
-        <org.codehaus.groovy.version>1.8.1</org.codehaus.groovy.version>
-        <org.codehaus.jackson.version>1.9.4</org.codehaus.jackson.version>
-        <org.concordion.ext.version>1.1.1</org.concordion.ext.version>
-        <org.concordion.version>1.4.4</org.concordion.version>
-        <org.easymock.version>3.2</org.easymock.version>
-        <org.easytesting.fest-assert.version>1.4</org.easytesting.fest-assert.version>
+
         <org.eclipse.core.contenttype.version>3.4.200-v20140207-1251</org.eclipse.core.contenttype.version>
         <org.eclipse.core.jobs.version>3.6.0.v20140424-0053</org.eclipse.core.jobs.version>
         <org.eclipse.core.resources.version>3.9.0.v20140514-1307</org.eclipse.core.resources.version>
         <org.eclipse.core.runtime.version>3.10.0.v20140318-2214</org.eclipse.core.runtime.version>
         <org.eclipse.equinox.common.version>3.6.200.v20130402-1505</org.eclipse.equinox.common.version>
         <org.eclipse.jdt.core.version>3.10.0.v20140604-1726</org.eclipse.jdt.core.version>
-        <org.eclipse.jetty.version>9.3.1.v20150714</org.eclipse.jetty.version>
         <org.eclipse.jgit.version>2.3.1.201302201838-r</org.eclipse.jgit.version>
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
-        <org.everrest.assured.version>${org.everrest.version}</org.everrest.assured.version>
+
         <org.everrest.version>1.8.0</org.everrest.version>
-        <org.flyway.version>3.1</org.flyway.version>
-        <org.glassfish.hk2.version>2.2.0</org.glassfish.hk2.version>
-        <org.glassfish.jersey.version>2.8</org.glassfish.jersey.version>
-        <org.glassfish.jsonp-jaxrs.version>1.0</org.glassfish.jsonp-jaxrs.version>
-        <org.hamcrest.version>1.3</org.hamcrest.version>
-        <org.javassist.version>3.18.2-GA</org.javassist.version>
-        <org.jboss.arquillian.version>1.1.2.Final</org.jboss.arquillian.version>
-        <org.joda-time.version>2.2</org.joda-time.version>
         <org.jvnet.winp.version>1.22</org.jvnet.winp.version>
         <org.kohsuke.github-api.version>1.67</org.kohsuke.github-api.version>
+
+        <org.reflections.version>0.9.9</org.reflections.version>
+        <org.slf4j.version>1.7.6</org.slf4j.version>
+        <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
+
+        <?SORTPOM IGNORE?>
+        <!-- compile time dependencies-->
+        <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
+        <maven.plugin-api.version>2.0</maven.plugin-api.version>
+
+        <!-- works with dependencies-->
+        <jdbc.jtds-driver.version>1.2</jdbc.jtds-driver.version>
+        <jdbc.mysql-driver.version>5.1.29</jdbc.mysql-driver.version>
+        <jdbc.nuodb-driver.version>2.0.3</jdbc.nuodb-driver.version>
+
+        <!-- test only dependencies-->
+        <org.easytesting.fest-assert.version>1.4</org.easytesting.fest-assert.version>
+        <org.hamcrest.version>1.3</org.hamcrest.version>
+        <com.google.gwt.gwtmockito>1.1.4</com.google.gwt.gwtmockito>
+        <org.everrest.assured.version>${org.everrest.version}</org.everrest.assured.version>
+        <junit.version>4.11</junit.version>
         <org.mockito.version>1.9.5</org.mockito.version>
         <org.mockitong.version>0.4</org.mockitong.version>
-        <org.mongodb.mongo-java-server.version>1.1.1</org.mongodb.mongo-java-server.version>
-        <org.mongodb.version>3.0.3</org.mongodb.version>
-        <org.objectweb.asm>3.3.1</org.objectweb.asm>
-        <org.openjdk.jmh.version>1.4.2</org.openjdk.jmh.version>
-        <org.osgi.version>5.0.0</org.osgi.version>
-        <org.powermock.version>1.5.5</org.powermock.version>
-        <org.projectlombok.lombok.version>1.16.0</org.projectlombok.lombok.version>
-        <org.quartz-scheduler.version>2.1.7</org.quartz-scheduler.version>
-        <org.reflections.version>0.9.9</org.reflections.version>
-        <org.restlet.version>2.2.2</org.restlet.version>
-        <org.scribe.version>1.3.5</org.scribe.version>
-        <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.testng.version>6.8</org.testng.version>
-        <org.thymeleaf.version>2.1.4.RELEASE</org.thymeleaf.version>
-        <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
+        <com.tngtech.java>1.9.3</com.tngtech.java>
+        <com.googlecode.gwt-test-utils.version>0.47</com.googlecode.gwt-test-utils.version>
+        <?SORTPOM RESUME?>
     </properties>
     <repositories>
         <repository>
