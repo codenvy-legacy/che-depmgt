@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/codenvy/che-parent.svg)](https://github.com/codenvy/che-parent)
+[![License](https://img.shields.io/github/license/codenvy/che.svg)](https://github.com/codenvy/che-parent)
 [![Latest tag](https://img.shields.io/github/tag/codenvy/che-parent.svg)](https://github.com/codenvy/che-parent/tags)
 
 ## About Eclipse Che
