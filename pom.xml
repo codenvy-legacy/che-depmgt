@@ -16,7 +16,7 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>3.7.7</version>
+        <version>3.7.8-SNAPSHOT</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
