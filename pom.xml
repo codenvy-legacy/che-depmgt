@@ -97,11 +97,6 @@
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
         <maven.plugin-api.version>2.0</maven.plugin-api.version>
 
-        <!-- works with dependencies-->
-        <jdbc.jtds-driver.version>1.2</jdbc.jtds-driver.version>
-        <jdbc.mysql-driver.version>5.1.29</jdbc.mysql-driver.version>
-        <jdbc.nuodb-driver.version>2.0.3</jdbc.nuodb-driver.version>
-
         <!-- test only dependencies-->
         <org.easytesting.fest-assert.version>1.4</org.easytesting.fest-assert.version>
         <org.hamcrest.version>1.3</org.hamcrest.version>
