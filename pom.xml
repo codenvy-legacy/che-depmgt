@@ -62,7 +62,6 @@
         <javax.validation.version>1.0.0.GA</javax.validation.version>
         <javax.websocket.api.version>1.1</javax.websocket.api.version>
         <javax.ws.rs.version>2.0</javax.ws.rs.version>
-        <jdbc.postgresql-driver.version>9.3-1102-jdbc41</jdbc.postgresql-driver.version>
         <jenkins.job.name>maven-depmgt-pom-master-ci</jenkins.job.name>
         <net.java.dev.jna.version>4.1.0</net.java.dev.jna.version>
         <net.sf.opencsv.version>1.8</net.sf.opencsv.version>
@@ -95,11 +94,6 @@
         <!-- compile time dependencies-->
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
         <maven.plugin-api.version>2.0</maven.plugin-api.version>
-
-        <!-- works with dependencies-->
-        <jdbc.jtds-driver.version>1.2</jdbc.jtds-driver.version>
-        <jdbc.mysql-driver.version>5.1.29</jdbc.mysql-driver.version>
-        <jdbc.nuodb-driver.version>2.0.3</jdbc.nuodb-driver.version>
 
         <!-- test only dependencies-->
         <org.easytesting.fest-assert.version>1.4</org.easytesting.fest-assert.version>
