@@ -69,7 +69,7 @@
         <net.sourceforge.schemacrawler.version>10.09.01</net.sourceforge.schemacrawler.version>
         <org.antlr.version>3.5.2</org.antlr.version>
         <org.apache.ant.version>1.9.4</org.apache.ant.version>
-        <org.apache.lucene.version>5.0.0</org.apache.lucene.version>
+        <org.apache.lucene.version>5.2.1</org.apache.lucene.version>
         <org.apache.tomcat.version>8.0.23</org.apache.tomcat.version>
         <org.bouncycastle.version>1.51</org.bouncycastle.version>
         <org.eclipse.core.contenttype.version>3.4.200-v20140207-1251</org.eclipse.core.contenttype.version>
