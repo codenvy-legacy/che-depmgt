@@ -16,7 +16,7 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>4.0.0-M2-SNAPSHOT</version>
+        <version>4.0.0-M2</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
@@ -34,10 +34,10 @@
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
-        <che.core.version>4.0.0-M2-SNAPSHOT</che.core.version>
-        <che.plugins.version>4.0.0-M2-SNAPSHOT</che.plugins.version>
-        <che.sdk.version>4.0.0-M2-SNAPSHOT</che.sdk.version>
-        <che.tutorials.version>4.0.0-M2-SNAPSHOT</che.tutorials.version>
+        <che.core.version>4.0.0-M2</che.core.version>
+        <che.plugins.version>4.0.0-M2</che.plugins.version>
+        <che.sdk.version>4.0.0-M2</che.sdk.version>
+        <che.tutorials.version>4.0.0-M2</che.tutorials.version>
         <com.fasterxml.jackson.core.version>2.3.0</com.fasterxml.jackson.core.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
         <com.google.code.guice.version>4.0</com.google.code.guice.version>
@@ -83,7 +83,7 @@
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
 
-        <org.everrest.version>1.10.0-SNAPSHOT</org.everrest.version>
+        <org.everrest.version>1.10.0</org.everrest.version>
         <org.jvnet.winp.version>1.22</org.jvnet.winp.version>
         <org.kohsuke.github-api.version>1.67</org.kohsuke.github-api.version>
         <org.reflections.version>0.9.9</org.reflections.version>
