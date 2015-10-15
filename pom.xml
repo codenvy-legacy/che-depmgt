@@ -72,6 +72,7 @@
         <org.apache.tomcat.version>8.0.23</org.apache.tomcat.version>
         <org.bouncycastle.version>1.51</org.bouncycastle.version>
 
+        <org.eclipse.aether.version>1.0.2.v20150114</org.eclipse.aether.version>
         <org.eclipse.core.contenttype.version>3.4.200-v20140207-1251</org.eclipse.core.contenttype.version>
         <org.eclipse.core.jobs.version>3.6.0.v20140424-0053</org.eclipse.core.jobs.version>
         <org.eclipse.core.resources.version>3.9.0.v20140514-1307</org.eclipse.core.resources.version>
