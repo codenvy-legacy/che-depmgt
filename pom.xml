@@ -35,6 +35,7 @@
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>3.13.1-SNAPSHOT</che.core.version>
+        <che.dashboard.version>2.0.3</che.dashboard.version>
         <che.plugins.version>3.13.1-SNAPSHOT</che.plugins.version>
         <che.sdk.version>3.13.1-SNAPSHOT</che.sdk.version>
         <che.tutorials.version>3.13.1-SNAPSHOT</che.tutorials.version>
