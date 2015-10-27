@@ -21,7 +21,7 @@
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
     <artifactId>maven-depmgt-pom</artifactId>
-    <version>3.13.2-SNAPSHOT</version>
+    <version>3.14.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Che Dependency Management POM</name>
     <description>Provides version of third parties artifacts to use in Codenvy platform projects</description>
@@ -34,11 +34,11 @@
     <properties>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
-        <che.core.version>3.13.2-SNAPSHOT</che.core.version>
+        <che.core.version>3.14.0-SNAPSHOT</che.core.version>
         <che.dashboard.version>2.1.1</che.dashboard.version>
-        <che.plugins.version>3.13.2-SNAPSHOT</che.plugins.version>
-        <che.sdk.version>3.13.2-SNAPSHOT</che.sdk.version>
-        <che.tutorials.version>3.13.2-SNAPSHOT</che.tutorials.version>
+        <che.plugins.version>3.14.0-SNAPSHOT</che.plugins.version>
+        <che.sdk.version>3.14.0-SNAPSHOT</che.sdk.version>
+        <che.tutorials.version>3.14.0-SNAPSHOT</che.tutorials.version>
         <com.fasterxml.jackson.core.version>2.3.0</com.fasterxml.jackson.core.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
         <com.google.code.guice.version>4.0</com.google.code.guice.version>
