@@ -97,8 +97,6 @@
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
         <websocket.terminal.version>1.1-SNAPSHOT</websocket.terminal.version>
-
-
         <?SORTPOM IGNORE?>
         <!-- compile time dependencies-->
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
@@ -805,6 +803,11 @@
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-machine-ext-server</artifactId>
                 <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>che-plugin-openshift-ext-shared</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
