@@ -97,7 +97,7 @@
         <org.reflections.version>0.9.9</org.reflections.version>
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
-        <websocket.terminal.version>1.1</websocket.terminal.version>
+        <websocket.terminal.version>1.2-SNAPSHOT</websocket.terminal.version>
 
 
         <?SORTPOM IGNORE?>
