@@ -16,7 +16,7 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>4.0.0-M3-SNAPSHOT</version>
+        <version>4.0.0-M4-SNAPSHOT</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
@@ -35,7 +35,7 @@
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>4.0.0-M4-SNAPSHOT</che.core.version>
-        <che.dashboard.version>3.0.0-SNAPSHOT</che.dashboard.version>
+        <che.dashboard.version>3.0.0</che.dashboard.version>
         <che.plugins.version>4.0.0-M4-SNAPSHOT</che.plugins.version>
         <che.sdk.version>4.0.0-M4-SNAPSHOT</che.sdk.version>
         <che.tutorials.version>4.0.0-M4-SNAPSHOT</che.tutorials.version>
@@ -98,7 +98,7 @@
         <org.reflections.version>0.9.9</org.reflections.version>
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
-        <websocket.terminal.version>1.1-SNAPSHOT</websocket.terminal.version>
+        <websocket.terminal.version>1.2-SNAPSHOT</websocket.terminal.version>
 
 
         <?SORTPOM IGNORE?>
@@ -906,7 +906,32 @@
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>org.eclipse.jdt.ui</artifactId>
+                <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>org.eclipse.jface</artifactId>
+                <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>org.eclipse.jface.text</artifactId>
+                <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>org.eclipse.ltk.core.refactoring</artifactId>
+                <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>org.eclipse.search</artifactId>
+                <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>org.eclipse.ui.ide</artifactId>
                 <version>${che.plugins.version}</version>
             </dependency>
             <dependency>
