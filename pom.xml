@@ -36,7 +36,7 @@
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>3.13.4.3</che.core.version>
         <che.dashboard.version>2.1.5</che.dashboard.version>
-        <che.plugins.version>3.13.4.3</che.plugins.version>
+        <che.plugins.version>3.13.4.4</che.plugins.version>
         <che.sdk.version>3.13.4.3</che.sdk.version>
         <che.tutorials.version>3.13.4</che.tutorials.version>
         <com.fasterxml.jackson.core.version>2.3.0</com.fasterxml.jackson.core.version>
