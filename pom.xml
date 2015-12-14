@@ -32,6 +32,7 @@
         <url>https://github.com/codenvy/che-depmgt</url>
     </scm>
     <properties>
+        <aopalliance.version>1.0</aopalliance.version>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>4.0.0-M5-SNAPSHOT</che.core.version>
@@ -122,6 +123,11 @@
     </properties>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>aopalliance</groupId>
+                <artifactId>aopalliance</artifactId>
+                <version>${aopalliance.version}</version>
+            </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
