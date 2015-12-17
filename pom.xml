@@ -16,30 +16,30 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>4.0.0-M5-SNAPSHOT</version>
+        <version>4.0.0-M5</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
     <artifactId>maven-depmgt-pom</artifactId>
-    <version>4.0.0-M5-SNAPSHOT</version>
+    <version>4.0.0-M5</version>
     <packaging>pom</packaging>
     <name>Che Dependency Management POM</name>
     <description>Provides version of third parties artifacts to use in Codenvy platform projects</description>
     <scm>
         <connection>scm:git:git://github.com/codenvy/che-depmgt.git</connection>
         <developerConnection>scm:git:git@github.com:codenvy/che-depmgt.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>4.0.0-M5</tag>
         <url>https://github.com/codenvy/che-depmgt</url>
     </scm>
     <properties>
         <aopalliance.version>1.0</aopalliance.version>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
-        <che.core.version>4.0.0-M5-SNAPSHOT</che.core.version>
-        <che.dashboard.version>3.0.2-SNAPSHOT</che.dashboard.version>
-        <che.plugins.version>4.0.0-M5-SNAPSHOT</che.plugins.version>
-        <che.sdk.version>4.0.0-M5-SNAPSHOT</che.sdk.version>
-        <che.tutorials.version>4.0.0-M5-SNAPSHOT</che.tutorials.version>
+        <che.core.version>4.0.0-M5</che.core.version>
+        <che.dashboard.version>3.0.2</che.dashboard.version>
+        <che.plugins.version>4.0.0-M5</che.plugins.version>
+        <che.sdk.version>4.0.0-M5</che.sdk.version>
+        <che.tutorials.version>4.0.0-M5</che.tutorials.version>
         <com.fasterxml.jackson.core.version>2.3.0</com.fasterxml.jackson.core.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
         <com.google.code.guice.version>4.0</com.google.code.guice.version>
@@ -99,7 +99,7 @@
         <org.reflections.version>0.9.9</org.reflections.version>
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
-        <websocket.terminal.version>1.2-SNAPSHOT</websocket.terminal.version>
+        <websocket.terminal.version>1.2</websocket.terminal.version>
 
 
         <?SORTPOM IGNORE?>
