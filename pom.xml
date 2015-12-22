@@ -16,12 +16,12 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>4.0.0-M6-SNAPSHOT</version>
+        <version>4.0.0-beta-1-SNAPSHOT</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
     <artifactId>maven-depmgt-pom</artifactId>
-    <version>4.0.0-M6-SNAPSHOT</version>
+    <version>4.0.0-beta-1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Che Dependency Management POM</name>
     <description>Provides version of third parties artifacts to use in Codenvy platform projects</description>
@@ -35,12 +35,12 @@
         <aopalliance.version>1.0</aopalliance.version>
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
-        <che.core.version>4.0.0-M6-SNAPSHOT</che.core.version>
-        <che.dashboard.version>3.0.2</che.dashboard.version>
-        <che.ide.version>4.0.0-M6-SNAPSHOT</che.ide.version>
-        <che.plugins.version>4.0.0-M6-SNAPSHOT</che.plugins.version>
-        <che.tutorials.version>4.0.0-M6-SNAPSHOT</che.tutorials.version>
-        <che.websocket.terminal.version>4.0.0-M6-SNAPSHOT</che.websocket.terminal.version>
+        <che.core.version>4.0.0-beta-1-SNAPSHOT</che.core.version>
+        <che.dashboard.version>4.0.0-beta-1-SNAPSHOT</che.dashboard.version>
+        <che.ide.version>4.0.0-beta-1-SNAPSHOT</che.ide.version>
+        <che.plugins.version>4.0.0-beta-1-SNAPSHOT</che.plugins.version>
+        <che.tutorials.version>4.0.0-beta-1-SNAPSHOT</che.tutorials.version>
+        <che.websocket.terminal.version>4.0.0-beta-1-SNAPSHOT</che.websocket.terminal.version>
         <com.fasterxml.jackson.core.version>2.3.0</com.fasterxml.jackson.core.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
         <com.google.code.guice.version>4.0</com.google.code.guice.version>
