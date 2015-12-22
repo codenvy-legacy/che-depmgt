@@ -37,6 +37,7 @@
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>4.0.0-M5</che.core.version>
         <che.dashboard.version>3.0.2</che.dashboard.version>
+        <che.plugin.openshift.version>4.0.0-M5-SNAPSHOT</che.plugin.openshift.version>
         <che.plugins.version>4.0.0-M5</che.plugins.version>
         <che.sdk.version>4.0.0-M5</che.sdk.version>
         <che.tutorials.version>4.0.0-M5</che.tutorials.version>
@@ -100,8 +101,6 @@
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
         <websocket.terminal.version>1.2</websocket.terminal.version>
-
-
         <?SORTPOM IGNORE?>
         <!-- compile time dependencies-->
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
@@ -832,22 +831,22 @@
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-openshift-ext-client</artifactId>
-                <version>${project.version}</version>
+                <version>${che.plugin.openshift.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-openshift-ext-server</artifactId>
-                <version>${project.version}</version>
+                <version>${che.plugin.openshift.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-openshift-ext-shared</artifactId>
-                <version>${project.version}</version>
+                <version>${che.plugin.openshift.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-openshift-oauth2</artifactId>
-                <version>${project.version}</version>
+                <version>${che.plugin.openshift.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
