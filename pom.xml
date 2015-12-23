@@ -26,7 +26,7 @@
     <name>Che Dependency Management POM</name>
     <description>Provides version of third parties artifacts to use in Codenvy platform projects</description>
     <scm>
-        <connection>scm:git:git://github.com/codenvy/che-depmgt.git</connection>
+        <connection>scm:git:git@github.com:codenvy/che-depmgt.git</connection>
         <developerConnection>scm:git:git@github.com:codenvy/che-depmgt.git</developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/codenvy/che-depmgt</url>
