@@ -37,9 +37,9 @@
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>4.0.0-beta-3-SNAPSHOT</che.core.version>
         <che.dashboard.version>4.0.0-beta-3-SNAPSHOT</che.dashboard.version>
-        <che.ide.version>4.0.0-beta-3-SNAPSHOT</che.ide.version>
         <che.plugins.version>4.0.0-beta-3-SNAPSHOT</che.plugins.version>
         <che.tutorials.version>4.0.0-beta-3-SNAPSHOT</che.tutorials.version>
+        <che.version>4.0.0-beta-3-SNAPSHOT</che.version>
         <che.websocket.terminal.version>4.0.0-beta-3-SNAPSHOT</che.websocket.terminal.version>
         <com.fasterxml.jackson.core.version>2.3.0</com.fasterxml.jackson.core.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
@@ -481,6 +481,34 @@
                 <version>${org.eclipse.birt.equinox.common.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-ide-war</artifactId>
+                <version>${che.version}</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-machine-server</artifactId>
+                <version>${che.version}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-machine-war</artifactId>
+                <version>${che.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-machine-war</artifactId>
+                <version>${che.version}</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-main</artifactId>
+                <version>${che.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.eclipse.che.core</groupId>
                 <artifactId>che-core-api-account</artifactId>
                 <version>${che.core.version}</version>
@@ -690,34 +718,6 @@
                 <groupId>org.eclipse.che.dashboard</groupId>
                 <artifactId>che-dashboard-war</artifactId>
                 <version>${che.dashboard.version}</version>
-                <type>war</type>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-ide</artifactId>
-                <version>${che.ide.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-ide-war</artifactId>
-                <version>${che.ide.version}</version>
-                <type>war</type>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-machine-server</artifactId>
-                <version>${che.ide.version}</version>
-                <type>zip</type>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-machine-war</artifactId>
-                <version>${che.ide.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-machine-war</artifactId>
-                <version>${che.ide.version}</version>
                 <type>war</type>
             </dependency>
             <dependency>
