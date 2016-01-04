@@ -481,6 +481,34 @@
                 <version>${org.eclipse.birt.equinox.common.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-ide-war</artifactId>
+                <version>${che.version}</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-machine-server</artifactId>
+                <version>${che.version}</version>
+                <type>zip</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-machine-war</artifactId>
+                <version>${che.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-machine-war</artifactId>
+                <version>${che.version}</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che</groupId>
+                <artifactId>assembly-main</artifactId>
+                <version>${che.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.eclipse.che.core</groupId>
                 <artifactId>che-core-api-account</artifactId>
                 <version>${che.core.version}</version>
@@ -700,34 +728,6 @@
                 <groupId>org.eclipse.che.dashboard</groupId>
                 <artifactId>che-dashboard-war</artifactId>
                 <version>${che.dashboard.version}</version>
-                <type>war</type>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-ide</artifactId>
-                <version>${che.ide.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-ide-war</artifactId>
-                <version>${che.ide.version}</version>
-                <type>war</type>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-machine-server</artifactId>
-                <version>${che.ide.version}</version>
-                <type>zip</type>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-machine-war</artifactId>
-                <version>${che.ide.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.eclipse.che.ide</groupId>
-                <artifactId>assembly-machine-war</artifactId>
-                <version>${che.ide.version}</version>
                 <type>war</type>
             </dependency>
             <dependency>
