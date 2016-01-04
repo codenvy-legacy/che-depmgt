@@ -37,7 +37,7 @@
         <che.codemirror.resources.version>4.13</che.codemirror.resources.version>
         <che.core.version>4.0.0-beta-4-SNAPSHOT</che.core.version>
         <che.dashboard.version>4.0.0-beta-4-SNAPSHOT</che.dashboard.version>
-        <che.ide.version>4.0.0-beta-4-SNAPSHOT</che.ide.version>
+        <che.version>4.0.0-beta-4-SNAPSHOT</che.version>
         <che.plugins.version>4.0.0-beta-4-SNAPSHOT</che.plugins.version>
         <che.tutorials.version>4.0.0-beta-4-SNAPSHOT</che.tutorials.version>
         <che.websocket.terminal.version>4.0.0-beta-4-SNAPSHOT</che.websocket.terminal.version>
