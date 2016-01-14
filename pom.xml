@@ -74,6 +74,7 @@
         <net.sourceforge.schemacrawler.version>10.09.01</net.sourceforge.schemacrawler.version>
         <org.antlr.version>3.5.2</org.antlr.version>
         <org.apache.ant.version>1.9.4</org.apache.ant.version>
+        <org.apache.commons.lang3.version>3.4</org.apache.commons.lang3.version>
         <org.apache.lucene.version>5.2.1</org.apache.lucene.version>
         <org.apache.tika.version>1.11</org.apache.tika.version>
         <org.apache.tomcat.version>8.0.28</org.apache.tomcat.version>
@@ -361,6 +362,10 @@
                 <version>${io.swagger.version}</version>
                 <exclusions>
                     <exclusion>
+                        <artifactId>commons-lang3</artifactId>
+                        <groupId>org.apache.commons</groupId>
+                    </exclusion>
+                    <exclusion>
                         <artifactId>jsr305</artifactId>
                         <groupId>com.google.code.findbugs</groupId>
                     </exclusion>
@@ -375,6 +380,10 @@
                 <artifactId>swagger-jaxrs</artifactId>
                 <version>${io.swagger.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <artifactId>commons-lang3</artifactId>
+                        <groupId>org.apache.commons</groupId>
+                    </exclusion>
                     <exclusion>
                         <artifactId>jsr305</artifactId>
                         <groupId>com.google.code.findbugs</groupId>
@@ -450,6 +459,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>${commons-compress.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${org.apache.commons.lang3.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.lucene</groupId>
