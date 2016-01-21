@@ -91,7 +91,7 @@
         <org.eclipse.jgit.version>4.0.1.201506240215-r</org.eclipse.jgit.version>
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
-        <org.everrest.version>1.12.0-SNAPSHOT</org.everrest.version>
+        <org.everrest.version>1.12.0</org.everrest.version>
         <org.javassist.version>3.18.2-GA</org.javassist.version>
         <org.jvnet.winp.version>1.22</org.jvnet.winp.version>
         <org.kohsuke.github-api.version>1.67</org.kohsuke.github-api.version>
