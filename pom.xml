@@ -160,6 +160,21 @@
                 <version>${com.fasterxml.jackson.core.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-yaml</artifactId>
+                <version>${com.fasterxml.jackson.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-joda</artifactId>
+                <version>${com.fasterxml.jackson.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.jaxrs</groupId>
+                <artifactId>jackson-jaxrs-json-provider</artifactId>
+                <version>${com.fasterxml.jackson.core.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.api-client</groupId>
                 <artifactId>google-api-client</artifactId>
                 <version>${com.google.api-client.version}</version>
@@ -362,6 +377,10 @@
                 <version>${io.swagger.version}</version>
                 <exclusions>
                     <exclusion>
+                        <artifactId>jackson-datatype-joda</artifactId>
+                        <groupId>com.fasterxml.jackson.datatype</groupId>
+                    </exclusion>
+                    <exclusion>
                         <artifactId>commons-lang3</artifactId>
                         <groupId>org.apache.commons</groupId>
                     </exclusion>
@@ -373,6 +392,10 @@
                         <artifactId>jsr311-api</artifactId>
                         <groupId>javax.ws.rs</groupId>
                     </exclusion>
+                    <exclusion>
+                        <artifactId>jackson-dataformat-yaml</artifactId>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -380,6 +403,18 @@
                 <artifactId>swagger-jaxrs</artifactId>
                 <version>${io.swagger.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <artifactId>jackson-jaxrs-json-provider</artifactId>
+                        <groupId>com.fasterxml.jackson.jaxrs</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>jackson-dataformat-yaml</artifactId>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>jackson-dataformat-xml</artifactId>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                    </exclusion>
                     <exclusion>
                         <artifactId>commons-lang3</artifactId>
                         <groupId>org.apache.commons</groupId>
