@@ -71,6 +71,7 @@
         <javax.ws.rs.version>2.0</javax.ws.rs.version>
         <jdbc.postgresql-driver.version>9.3-1102-jdbc41</jdbc.postgresql-driver.version>
         <jenkins.job.name>maven-depmgt-pom-master-ci</jenkins.job.name>
+        <joda-time.version>2.3</joda-time.version>
         <net.java.dev.jna.version>4.1.0</net.java.dev.jna.version>
         <net.sf.opencsv.version>1.8</net.sf.opencsv.version>
         <net.sourceforge.schemacrawler.version>10.09.01</net.sourceforge.schemacrawler.version>
@@ -104,6 +105,7 @@
         <org.reflections.version>0.9.9</org.reflections.version>
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
+        <org.yaml.snakeyaml.version>1.14</org.yaml.snakeyaml.version>
         <?SORTPOM IGNORE?>
         <!-- compile time dependencies-->
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
@@ -159,6 +161,33 @@
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
+                <version>${com.fasterxml.jackson.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-yaml</artifactId>
+                <version>${com.fasterxml.jackson.core.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>snakeyaml</artifactId>
+                        <groupId>org.yaml</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-joda</artifactId>
+                <version>${com.fasterxml.jackson.core.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>joda-time</artifactId>
+                        <groupId>joda-time</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.jaxrs</groupId>
+                <artifactId>jackson-jaxrs-json-provider</artifactId>
                 <version>${com.fasterxml.jackson.core.version}</version>
             </dependency>
             <dependency>
@@ -364,6 +393,10 @@
                 <version>${io.swagger.version}</version>
                 <exclusions>
                     <exclusion>
+                        <artifactId>jackson-datatype-joda</artifactId>
+                        <groupId>com.fasterxml.jackson.datatype</groupId>
+                    </exclusion>
+                    <exclusion>
                         <artifactId>commons-lang3</artifactId>
                         <groupId>org.apache.commons</groupId>
                     </exclusion>
@@ -375,6 +408,10 @@
                         <artifactId>jsr311-api</artifactId>
                         <groupId>javax.ws.rs</groupId>
                     </exclusion>
+                    <exclusion>
+                        <artifactId>jackson-dataformat-yaml</artifactId>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -382,6 +419,18 @@
                 <artifactId>swagger-jaxrs</artifactId>
                 <version>${io.swagger.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <artifactId>jackson-jaxrs-json-provider</artifactId>
+                        <groupId>com.fasterxml.jackson.jaxrs</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>jackson-dataformat-yaml</artifactId>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>jackson-dataformat-xml</artifactId>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                    </exclusion>
                     <exclusion>
                         <artifactId>commons-lang3</artifactId>
                         <groupId>org.apache.commons</groupId>
@@ -441,6 +490,11 @@
                 <groupId>javax.ws.rs</groupId>
                 <artifactId>javax.ws.rs-api</artifactId>
                 <version>${javax.ws.rs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>${joda-time.version}</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
@@ -1239,6 +1293,11 @@
                 <groupId>org.vectomatic</groupId>
                 <artifactId>lib-gwt-svg</artifactId>
                 <version>${org.vectomatic.lib-gwt-svg.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${org.yaml.snakeyaml.version}</version>
             </dependency>
             <dependency>
                 <groupId>sun.jdt</groupId>
