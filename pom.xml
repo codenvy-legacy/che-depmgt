@@ -88,7 +88,7 @@
         <org.eclipse.core.runtime.version>3.10.0.v20140318-2214</org.eclipse.core.runtime.version>
         <org.eclipse.equinox.common.version>3.6.200.v20130402-1505</org.eclipse.equinox.common.version>
         <org.eclipse.jdt.core.version>3.10.0.v20140604-1726</org.eclipse.jdt.core.version>
-        <org.eclipse.jgit.version>4.0.1.201506240215-r</org.eclipse.jgit.version>
+        <org.eclipse.jgit.version>4.3.1.201605051710-r</org.eclipse.jgit.version>
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
         <org.everrest.version>1.12.0</org.everrest.version>
@@ -815,6 +815,11 @@
             </dependency>
             <dependency>
                 <groupId>org.eclipse.che.core</groupId>
+                <artifactId>che-core-git-impl-jgit</artifactId>
+                <version>${che.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.core</groupId>
                 <artifactId>che-core-git-impl-native</artifactId>
                 <version>${che.core.version}</version>
             </dependency>
@@ -1204,6 +1209,11 @@
             <dependency>
                 <groupId>org.eclipse.che.plugin</groupId>
                 <artifactId>che-plugin-ssh-ext-sshkey</artifactId>
+                <version>${che.plugins.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.plugin</groupId>
+                <artifactId>che-plugin-ssh-git-jgit</artifactId>
                 <version>${che.plugins.version}</version>
             </dependency>
             <dependency>
